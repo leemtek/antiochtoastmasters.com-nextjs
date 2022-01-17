@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply font-bold py-2 px-4 shadow-md rounded;
+}
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+    @apply bg-blue-400;
+}
+
+#nav-main {
+    height: 108px;
+    @apply transition-all duration-700;
+}
+body.scrolled #nav-main {
+    height: 68px;
+}
+#logo {
+    @apply transition-all duration-700;
+    width: 126px;
+    height: auto;
+}
+body.scrolled #logo {
+    width: 76px;
+}
+#nav-main .nav-sec li a {
+    line-height: 100px;
+    @apply transition-all duration-700;
+}
+body.scrolled #nav-main .nav-sec li a {
+    line-height: 60px;
+}

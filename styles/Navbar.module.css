@@ -1,0 +1,12 @@
+.nav {
+    
+}
+.menuItem {
+    @apply inline-block mr-1 h-full;
+}
+.menuItemA {
+    @apply inline-block mx-3 text-gray-600;
+}
+.menuItemA:hover {
+    @apply text-blue-700;
+}

@@ -23,6 +23,10 @@ import Head from 'next/head'
         </code>
       </p>
 
+      <div className="gabe">
+        <button className="btn btn-blue">Test Tailwind button</button>
+      </div>
+
       <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
         <a
           href="https://nextjs.org/docs"

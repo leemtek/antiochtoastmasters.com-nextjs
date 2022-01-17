@@ -10,7 +10,7 @@ import Image from 'next/image'
       </Head>
 
       <figure className="bg-gray-100 rounded-xl p-8 dark:bg-gray-800">
-        <Image className="w-24 h-24 rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width={384} height={512} />
+        <img className="w-24 h-24 rounded-full mx-auto" src="/images/sarah-dayan.jpg" alt="" />
           <div className="pt-6 space-y-4">
             <blockquote>
               <p className="text-lg font-medium">
